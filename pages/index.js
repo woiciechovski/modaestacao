@@ -44,7 +44,7 @@ const Index = () => (
       </main>
       <InstagramEmbed
         url="https://www.instagram.com/p/CVI25d2AJcj/"
-        clientAccessToken="456977639042277|IGQVJWazN3a3Faa2l0TnVLVnJLdkpXYVgzc2lGZAXNQRkE5MUtqY0NSdTVDX1ota0dTM0ctT1dCOW0xT0tTTzltNElDR09vaXoyVjdTX1FWNVA2RXlvaThZAd2tOZA2tDNEpWMm8wWlV6ZA0RORFUwMlRsbwZDZD"
+        clientAccessToken="1121690451696494|IGQVJXSjMtSldtMjJmaktBSVg1Q1lPMEFySGhfTmZAfbzM2Wmx1cFJFdmpyV1NzVGFsVmpDcTBCZA19aU3NjLUhJRTE5UEZAHWDRaTWx5UGhPWnRfRVhtNUxUS2pYX0E2VnFsWlgxN0p5WWl5QUpTdlplSwZDZD"
         maxWidth={320}
         hideCaption={false}
         containerTagName="div"
