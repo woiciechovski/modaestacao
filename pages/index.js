@@ -1,5 +1,4 @@
 import Head from "next/head";
-import InstagramEmbed from "react-instagram-embed";
 const Index = () => (
   <div>
     <Head>
@@ -42,19 +41,7 @@ const Index = () => (
           </div>
         </div>
       </main>
-      <InstagramEmbed
-        url="https://www.instagram.com/p/CVI25d2AJcj/"
-        clientAccessToken="1121690451696494|IGQVJXSjMtSldtMjJmaktBSVg1Q1lPMEFySGhfTmZAfbzM2Wmx1cFJFdmpyV1NzVGFsVmpDcTBCZA19aU3NjLUhJRTE5UEZAHWDRaTWx5UGhPWnRfRVhtNUxUS2pYX0E2VnFsWlgxN0p5WWl5QUpTdlplSwZDZD"
-        maxWidth={320}
-        hideCaption={false}
-        containerTagName="div"
-        protocol=""
-        injectScript
-        onLoading={() => {}}
-        onSuccess={() => {}}
-        onAfterRender={() => {}}
-        onFailure={() => {}}
-      />
+
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
