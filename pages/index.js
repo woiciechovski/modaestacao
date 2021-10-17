@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import InstagramEmbed from "react-instagram-embed";
 const Index = () => (
   <div>
     <Head>
@@ -17,17 +17,17 @@ const Index = () => (
               <p className="lead">Você na moda em todas as estações do ano!</p>
               <p className="lead">
                 <a href="https://www.instagram.com/modaestacaooficial/">
-                  <i class="fab fa-instagram"></i> ModaEstacaoOficial
+                  <i className="fab fa-instagram"></i> ModaEstacaoOficial
                 </a>
               </p>
               <p className="lead">
                 <a href="mailto:sac@modaestacao.com.br?subject=Duvida&body=Estou Com Duvida! Pode me ajudar?">
-                  <i class="fas fa-envelope"></i> sac@modaestacao.com.br
+                  <i className="fas fa-envelope"></i> sac@modaestacao.com.br
                 </a>
               </p>
               <p className="lead">
                 <a href="https://api.whatsapp.com/send?phone=5542988613939&text=Estou%20Com%20Duvida%2C%20Pode%20me%20ajudar%3F">
-                  <i class="fab fa-whatsapp"></i> (42) 9 8861-3939
+                  <i className="fab fa-whatsapp"></i> (42) 9 8861-3939
                 </a>
               </p>
             </div>
@@ -42,7 +42,19 @@ const Index = () => (
           </div>
         </div>
       </main>
-
+      <InstagramEmbed
+        url="https://www.instagram.com/p/CVI25d2AJcj/"
+        clientAccessToken="IGQVJWazN3a3Faa2l0TnVLVnJLdkpXYVgzc2lGZAXNQRkE5MUtqY0NSdTVDX1ota0dTM0ctT1dCOW0xT0tTTzltNElDR09vaXoyVjdTX1FWNVA2RXlvaThZAd2tOZA2tDNEpWMm8wWlV6ZA0RORFUwMlRsbwZDZD"
+        maxWidth={320}
+        hideCaption={false}
+        containerTagName="div"
+        protocol=""
+        injectScript
+        onLoading={() => {}}
+        onSuccess={() => {}}
+        onAfterRender={() => {}}
+        onFailure={() => {}}
+      />
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
