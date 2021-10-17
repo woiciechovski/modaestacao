@@ -27,7 +27,7 @@ const Index = () => (
               </p>
               <p className="lead">
                 <a href="https://api.whatsapp.com/send?phone=5542988613939&text=Estou%20Com%20Duvida%2C%20Pode%20me%20ajudar%3F">
-                  <i className="fab fa-whatsapp"></i> (42) 9 8861-3939
+                  <i className="fab fa-whatsapp"></i> +55 (42) 9 8861-3939
                 </a>
               </p>
             </div>
@@ -44,7 +44,7 @@ const Index = () => (
       </main>
       <InstagramEmbed
         url="https://www.instagram.com/p/CVI25d2AJcj/"
-        clientAccessToken="IGQVJWazN3a3Faa2l0TnVLVnJLdkpXYVgzc2lGZAXNQRkE5MUtqY0NSdTVDX1ota0dTM0ctT1dCOW0xT0tTTzltNElDR09vaXoyVjdTX1FWNVA2RXlvaThZAd2tOZA2tDNEpWMm8wWlV6ZA0RORFUwMlRsbwZDZD"
+        clientAccessToken="456977639042277|IGQVJWazN3a3Faa2l0TnVLVnJLdkpXYVgzc2lGZAXNQRkE5MUtqY0NSdTVDX1ota0dTM0ctT1dCOW0xT0tTTzltNElDR09vaXoyVjdTX1FWNVA2RXlvaThZAd2tOZA2tDNEpWMm8wWlV6ZA0RORFUwMlRsbwZDZD"
         maxWidth={320}
         hideCaption={false}
         containerTagName="div"
