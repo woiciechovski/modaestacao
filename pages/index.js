@@ -71,7 +71,7 @@ export async function getStaticProps(context) {
   return { props:{
     oi 
   },
-  revalidate:10
+  revalidate:21600
 }
 }
 
